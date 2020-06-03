@@ -1,0 +1,8 @@
+<!--pages/index/index.wxml-->
+<view class="order" wx:for='{{orders}}' wx:key="key">
+  <view class="deliverName">{{item.exproessageAddress}}</view>
+  <view class="toWhere">广东海洋大学 {{item.address}}</view>
+  <view class="detail" bindtap="orderDetail" id="indentId={{item.indentId}}">
+    <view>订单详情</view>
+  </view>
+</view>

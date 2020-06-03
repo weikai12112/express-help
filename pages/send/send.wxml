@@ -1,0 +1,21 @@
+<!--pages/send/send.wxml-->
+<view class="all">
+  <view class="navAndSay">
+    <view class="navName">订单发布</view>
+    <view class="say">order send</view>
+  </view>
+  <view class="text">
+    <input class="line-ipt" placeholder="快递地址" bindinput="exproessageAddress" value="{{exproessageAddress}}"></input>
+  </view>
+  <view class="text">
+    <input class="line-ipt" placeholder="送至" bindinput="address" value="{{address}}"></input>
+  </view>
+  <view class="text">
+    <input class="line-ipt" placeholder="取件信息：（取件码+姓名）" value="{{information}}" bindinput="information"></input>
+  </view>
+  <view class="text">
+    <input class="line-ipt" placeholder="备注" bindinput="comment" value="{{comment}}"></input>
+  </view>
+  <view class="login" bindtap="sendOrder">发布代拿订单</view>
+</view>
+

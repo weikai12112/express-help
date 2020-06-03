@@ -1,0 +1,42 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/send/send",
+    "pages/myOrderList/myOrderList",
+    "pages/order/order",
+    "pages/login/login",
+    "pages/regist/regist",
+    "pages/myOrder/myOrder",
+    "pages/ortherOrder/ortherOrder"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#ffc20b",
+    "navigationBarTitleText": "猪八戒骑猪跑腿",
+    "navigationBarTextStyle":"white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#666666",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/index.png",
+      "selectedIconPath": "images/index-1.png"
+    },
+    {
+      "pagePath": "pages/send/send",
+      "text": "发布订单",
+      "iconPath": "images/send.png",
+      "selectedIconPath": "images/send-1.png"
+    },
+    {
+      "pagePath": "pages/myOrderList/myOrderList",
+      "text": "我的订单",
+      "iconPath": "images/order.png",
+      "selectedIconPath": "images/order-1.png"
+    }]
+  }
+}

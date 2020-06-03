@@ -1,0 +1,17 @@
+<!--pages/regist/regist.wxml-->
+<view class="navAndSay">
+  <view class="navName">用户注册</view>
+  <view class="say">regist</view>
+</view>
+
+<view class="text">
+  <input class="line-ipt" bindinput="phone" placeholder="手机号"></input>
+</view>
+<view class="text">
+  <input class="line-ipt" bindinput="password" type="password" placeholder="输入密码"></input>
+</view>
+<view class="text">
+  <input class="line-ipt" bindinput="password2" type="password" placeholder="重新输入密码"></input>
+</view>
+<view class="regist" bindtap="login">已有账号？</view>
+<view class="login" bindtap="regist">注册</view>

@@ -1,0 +1,29 @@
+<!--pages/order/order.wxml-->
+<view class="order">
+  <view class="navAndSay">
+    <view class="navName">订单信息</view>
+    <view class="say">order</view>
+  </view>
+  <view class="orderInfo">
+    <view>用户：</view>
+    <view>{{data.userId}}</view>
+  </view>
+  <view class="orderInfo">
+    <view>快递商：</view>
+    <view>{{data.exproessageAddress}}</view>
+  </view>
+  <view class="orderInfo">
+    <view>送至：</view>
+    <view>{{data.address}}</view>
+  </view>
+  <view class="orderInfo">
+    <view>取件信息：</view>
+    <view>{{data.information}}</view>
+  </view>
+  <view class="orderInfo">
+    <view>备注：</view>
+    <view>{{data.comment}}</view>
+  </view>
+</view>
+<view class="login" bindtap="doIt">接单</view>
+

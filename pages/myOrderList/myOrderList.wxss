@@ -1,0 +1,74 @@
+/* pages/myOrderList/myOrderList.wxss */
+.nav{
+  background-color: #ffc20b;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-top: 1px dashed #e3e3e3;
+}
+.lunbo{
+  height: 200px;
+}
+.select{
+  width: 49%;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  border-bottom: 3px solid #eab20a;
+}
+.normal{
+    width: 49%;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+}
+.line{
+  height: 35px;
+  line-height: 35px;
+  font-size: 25px;
+  color: white;
+}
+.state{
+  color:#ffc20b; 
+}
+
+.order{
+  width: 90%;
+  height: 155px;
+  background-color: white;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: 1px solid #e3e3e3;
+  padding: 10px;
+
+  margin-top: 10px;
+}
+.deliverName{
+  color: #ebb309;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+.toWhere{
+  color: #aeaeae;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+.detail{
+  display: flex;
+  float: right;
+}
+.detail>view{
+  border-radius: 10px;
+  width: 80px;
+  height: 20px;
+  padding: 3px;
+  line-height: 20px;
+  border: 1px solid #ebb309;
+  background-color: #ffc20b;
+  color: white;
+  text-align: center;
+}

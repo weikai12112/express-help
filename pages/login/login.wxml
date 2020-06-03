@@ -1,0 +1,14 @@
+<!--pages/login/login.wxml-->
+<view class="navAndSay">
+  <view class="navName">用户登录</view>
+  <view class="say">login</view>
+</view>
+
+<view class="text">
+  <input class="line-ipt" bindinput="phone" placeholder="手机号"></input>
+</view>
+<view class="text">
+  <input class="line-ipt" bindinput="password" placeholder="密码" type="password"></input>
+</view>
+<view class="regist" bindtap="regist">注册账号</view>
+<view class="login" bindtap="login">登录</view>
